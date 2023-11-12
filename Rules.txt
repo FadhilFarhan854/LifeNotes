@@ -1,5 +1,7 @@
 ----RULES----
 
+IMPORTANT RULES < Pastiin ngerjain di branch masung masing dulu >
+
 1. sebelum push pastiin ada di branchnya masing masing
     buat pindah branch : masuk ke terminal -> git checkout BranchName
     contoh : git checkout Fadil
