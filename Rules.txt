@@ -21,7 +21,16 @@ git add .
 git commit -m "message / notes bebas"
 git push origin BranchName -> contoh : git push origin Wisnu
 
+kalo gamau peke command:
+- masuk ke branch masing2
+- push lewat source control kaya biasa (sidebar vs code nomer 3)
+
+
 4. kalo udah diacc mau push ke main :
 - git checkout Branchname FileName -> contoh git checkout Fadil Rules.txt
 - push biasa kaya di nomer 3
 
+5. buat pull dari main branch :
+
+-masuk ke branch masing masing dulu
+-git checkout main .
