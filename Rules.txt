@@ -20,4 +20,5 @@
 git add .
 git commit -m "message / notes bebas"
 git push origin BranchName -> contoh : git push origin Wisnu
+......
 
