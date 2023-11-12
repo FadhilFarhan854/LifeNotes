@@ -1,0 +1,27 @@
+----RULES----
+
+1. sebelum push pastiin ada di branchnya masing masing
+    buat pindah branch : masuk ke terminal -> git checkout BranchName
+    contoh : git checkout Fadil
+
+    List Branch : 
+    - Main 
+    - Fadil
+    - Dive
+    - Faisal
+    - Muhammad
+    - Wisnu
+    - Marcel
+
+2. Jangan di push ke branch main sebelum kasih info ke yang lain, biar codenya gak berantakan
+
+3. command buat push :
+
+git add .
+git commit -m "message / notes bebas"
+git push origin BranchName -> contoh : git push origin Wisnu
+
+4. kalo udah diacc mau push ke main :
+- git checkout Branchname FileName -> contoh git checkout Fadil Rules.txt
+- push biasa kaya di nomer 3
+
