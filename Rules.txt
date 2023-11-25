@@ -1,5 +1,7 @@
 ----RULES----
 
+IMPORTANT RULES < Pastiin ngerjain di branch masung masing dulu >
+
 1. sebelum push pastiin ada di branchnya masing masing
     buat pindah branch : masuk ke terminal -> git checkout BranchName
     contoh : git checkout Fadil
@@ -20,6 +22,11 @@
 git add .
 git commit -m "message / notes bebas"
 git push origin BranchName -> contoh : git push origin Wisnu
+
+kalo gamau peke command:
+- masuk ke branch masing2
+- push lewat source control kaya biasa (sidebar vs code nomer 3)
+
 
 4. kalo udah diacc mau push ke main :
 - git checkout Branchname FileName -> contoh git checkout Fadil Rules.txt
