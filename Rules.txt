@@ -36,3 +36,8 @@ kalo gamau peke command:
 
 -masuk ke branch masing masing dulu
 -git checkout main .
+
+6. setiap bikin file view pastiin ada @vite('resources/css/app.css') di head
+
+7. buat 2 terminal buat run : 1. npm run dev 
+                              2. phpa rtisan serve
