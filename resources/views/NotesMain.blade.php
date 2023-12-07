@@ -27,7 +27,7 @@
             <!-- sidebar -->
             <div class="w-full h-1/3 flex-col items-center mt-0" >
                 <div class="w-full h-full flex flex-wrap mt-20 justify-center items-center">
-                    <div class="w-[80%] bg-[#3c3f43]  h-12 rounded-lg flex  items-center justify-center hover:scale-105 hover:bg-[#2b2d30] transition-all duration-200"><span class="text-lg font-bold text-white">Catatan</span></div>
+                    <div class="w-[80%]   bg-[#c7b047] text-white  h-12 rounded-lg flex  items-center justify-center hover:scale-105  transition-all duration-200"><span class="text-lg font-bold text-white">Catatan</span></div>
                     <div class="w-[80%] bg-[#3c3f43] h-12 rounded-lg flex  items-center justify-center hover:scale-105 hover:bg-[#2b2d30] transition-all duration-200"><span class="text-lg font-bold text-white">To-do List</span></div>
                     <div class="w-[80%] bg-[#3c3f43] h-12 rounded-lg flex  items-center justify-center hover:scale-105 hover:bg-[#2b2d30] transition-all duration-200"><span class="text-lg font-bold text-white">Laporan Keuangan</span></div>
                     <div class="w-[80%] bg-[#3c3f43] h-12 rounded-lg flex  items-center justify-center hover:scale-105 hover:bg-[#2b2d30] transition-all duration-200"><span class="text-lg font-bold text-white">Forum</span></div>
@@ -54,87 +54,78 @@
                 <div class="w-full h-full flex flex-wrap items-start justify-center gap-5 p-5 overflow-y-scroll scrollbar-hide ">
                     <div class="w-full h-72 flex flex-wrap justify-center items-center">
                         <div class="w-full  flex flex-wrap justify-center items-center">
-                            <span class=" text-9xl bg-gradient-to-tr from-[#1f4623] bg-animate to-green-400 bg-clip-text text-transparent font-bold items-center">
+                            <span class=" text-9xl bg-gradient-to-tr from-[#564b21]  to-[#c7b047] bg-animate bg-clip-text text-transparent font-bold items-center">
                                 NOTES
                             </span>
                         </div>
                         
                         <div class="flex justify-center items-center w-[55%]">
-                            <span class="text-base bg-gradient-to-tr from-[#1f4623] to-green-400 bg-clip-text text-transparent font-bold items-center text-center">
+                            <span class="text-base bg-gradient-to-tr bg-animate from-[#564b21]  to-[#c7b047]  bg-clip-text text-transparent font-bold items-center text-center">
                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iure. Rem voluptatibus, ipsa similique doloribus quis a praesentium nostrum molestiae incidunt assumenda nobis vel porro temporibus quisquam vero aperiam! Eum.
-                       </span>
+                             </span>
              
                         </div>
                        
                     </div>
                     <!-- box1 -->
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center justify-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"><span class="w-full h-full flex justify-center items-center -mt-3">+</span></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center justify-center shadow-md hover:shadow-[#fff] hover:scale-105 transition-all duration-200"><span class="w-full h-full flex justify-center items-center -mt-3">+</span></div>
                     <!-- box2 -->
-                    <divs class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200 group cursor-pointer">
+                    <divs class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200 group cursor-pointer">
                         <script>
                                 const divElement = document.querySelector('divs'); // Replace 'div' with the ID or class of your actual div element
                                 divElement.addEventListener('click', function() {
-                                 window.location.href = 'Catatan.html'; // Replace 'https://www.example.com' with the URL of your desired page
+                                 window.location.href = '/Catatan'; // Replace 'https://www.example.com' with the URL of your desired page
                             });
                         </script>
-                        <div class="w-full h-[15%] flex justify-start p-2 gap-2">
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
-                                <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
-                            </div>
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
-                                <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
-                            </div>
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
-                                <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
-                            </div>
-                           
-
+                        
+                        <div class="w-full h-[20%] flex justify-start p-5 ">
+                            <span class="text-white font-bold text-2xl flex justify-start items-start ">Title</span>
                         </div>
-                        <div class="w-full h-[20%] flex justify-start p-5">
-                            <span class="text-white font-bold text-lg flex justify-start items-start ">Title</span>
-                        </div>
-                        <div class="w-full h-[65%]  flex justify-start items-start p-5">
+                        <div class="w-full h-[80%]  flex justify-start items-start p-5 ">
                             <span class="text-white font-bold text-sm flex justify-start items-start ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vero ex voluptatibus vitae recusandae.</span>
                         </div>
 
                     </divs>
 
                     <!-- box3 -->
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200 ">
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex-col items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200 ">
                         <div class="w-full h-[15%] flex justify-start p-2 gap-2">
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
+                            {{-- tags --}}
+                            <div class="w-[20%] h-[100%] bg-[#d3d174] text-white rounded-full text-xs flex justify-center ">
                                 <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
                             </div>
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
+                            <div class="w-[20%] h-[100%] bg-[#d3d174] text-white rounded-full text-xs flex justify-center ">
                                 <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
                             </div>
-                            <div class="w-[20%] h-[100%] bg-green-500 text-white rounded-full text-xs flex justify-center ">
+                            <div class="w-[20%] h-[100%] bg-[#d3d174] text-white rounded-full text-xs flex justify-center ">
                                 <span class=" text-white rounded-full text-xs my-auto font-bold">TAGS</span>
                             </div>
                            
-
+                          
                         </div>
+                          {{-- title --}}
                         <div class="w-full h-[20%] flex justify-start p-5">
                             <span class="text-white font-bold text-lg flex justify-start items-start ">Title</span>
                         </div>
+                        {{-- content --}}
                         <div class="w-full h-[65%]  flex justify-start items-start p-5">
                             <span class="text-white font-bold text-sm flex justify-start items-start ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vero ex voluptatibus vitae recusandae.</span>
                         </div>
 
                     </div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
-                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-green-400 hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
+                    <div class=" w-52 h-52 bg-[#1F2124] rounded-lg text-9xl flex items-center shadow-md hover:shadow-[#d3d174] hover:scale-105 transition-all duration-200"></div>
                     
 
                 </div>
